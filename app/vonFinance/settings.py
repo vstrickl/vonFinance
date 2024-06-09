@@ -39,6 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    # Native Apps
+    'financials'
 ]
 
 MIDDLEWARE = [
@@ -153,3 +156,8 @@ STORAGES = {
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Alpha Vantate
+# https://www.alphavantage.co/support/#api-key
+
+API_KEY = config('API_KEY')
