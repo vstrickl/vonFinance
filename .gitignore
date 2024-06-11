@@ -1,1 +1,3 @@
 .env
+app/financials/outputs/
+app/financials/outputs/*
